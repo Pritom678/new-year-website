@@ -12,12 +12,13 @@
 
 
 /* universal style  */
+section{
+    margin-bottom: 120px;
+    max-width: 1320px;
+}
 all-mar{
     margin-left: 140px;
     margin-right: 140px;
-}
-section{
-    margin-bottom: 120px;
 }
 /* first-style */
 .first-container{
@@ -115,4 +116,36 @@ section{
     color: white;
     background-color: transparent;
     border: none;
+}
+/* fourth style */
+.fourth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(252, 191, 191), rgb(255, 255, 255));
+    height: 482px;
+}
+.fourth-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.fourth-title h5{
+    padding-bottom: 10px;
+    margin: 10px;
+}
+.tcol{
+    color: #FF0000;
+}
+.fourth-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+button{
+    background-color: #FF0000;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
 }
