@@ -49,3 +49,31 @@ all-mar{
     font-weight: 900;
     margin-top: 16px;
 }
+/* second style */
+.second-title{
+    text-align: center;
+    margin: auto;
+}
+.second-title h1{
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+.second-title h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.second-title h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    margin-top: 0;
+}
+.second-container img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
