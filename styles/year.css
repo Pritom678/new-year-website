@@ -1,0 +1,51 @@
+/* font style */
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* universal style  */
+all-mar{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+/* first-style */
+.first-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.first-container img{
+    width: 1320px;
+    height: 600px;
+    position: relative;
+}
+.first-title{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 40px;
+}
+.first-title h5{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.first-title h1{
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+}
