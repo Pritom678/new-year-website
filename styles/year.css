@@ -25,7 +25,10 @@
   font-style: normal;
 }
 
-
+body{
+    margin: 0 auto;
+    max-width: 1400px;
+}
 
 /* universal style  */
 section{
@@ -251,7 +254,7 @@ button{
 }
 .img-three{
     position: relative;
-    z-index: -3;
+    z-index: -1;
 }
 .img-two{
     position: relative;
@@ -265,4 +268,79 @@ button{
     left: 70%;
     bottom: 110px;
 }
-
+.seventh-container{
+    margin-top: 800px;
+}
+.seventh-title{
+    width: 750px;
+}
+.seventh-title h4{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.seventh-title h1{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+.seventh-title p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.6);
+}
+.slides{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* eighth-style */
+.eighth-container{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 20px;
+    background-color: #e29090;
+    border-radius: 10px;
+}
+.kor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eighth-title{
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.eighth-title h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Merriweather", serif;
+}
+.eighth-title p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.6);
+}
+.input-email{
+    padding: 12px 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-right: 0%;
+}
+.subcribe-button{
+    background-color: #FF0000;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 0%;
+}
