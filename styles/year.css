@@ -16,7 +16,9 @@ all-mar{
     margin-left: 140px;
     margin-right: 140px;
 }
-
+section{
+    margin-bottom: 120px;
+}
 /* first-style */
 .first-container{
     display: flex;
@@ -76,4 +78,41 @@ all-mar{
     display: block;
     margin: auto;
     width: 50%;
+}
+/* third style */
+.third-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-container img{
+    position: relative;
+}
+.third-description{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position:absolute;
+}
+.third-title{
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+.third-title h2{
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.third-title p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.third-title button{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    border: none;
 }
