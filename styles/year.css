@@ -8,6 +8,22 @@
   font-variation-settings:
     "wdth" 100;
 } */
+ 
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
 
 
 
@@ -206,3 +222,47 @@ button{
     width: 140px;
     height: 140px;
 }
+/* sixth-container */
+.sixth-title{
+    width: 1068px;
+    height: 260px;
+    text-align: center;
+    margin: auto;
+}
+.sixth-title h5{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.sixth-title h1{
+    font-size: 72px;
+    font-weight: 800;
+    font-family: "Merriweather", serif;
+}
+.sixth-title p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.sixth-img{
+    position: absolute;
+}
+.img-three{
+    position: relative;
+    z-index: -3;
+}
+.img-two{
+    position: relative;
+    top: 200px;
+    right: 300px;
+    width: 600px;
+    height: 500px;
+}
+.img-one{
+    position: relative;
+    left: 70%;
+    bottom: 110px;
+}
+
